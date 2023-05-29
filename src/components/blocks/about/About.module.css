@@ -1,0 +1,22 @@
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about {
+    display: flex;
+}
+
+.info {
+    margin-right: 50px;
+}
+
+.right {
+    min-width: 60%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 25%;
+}

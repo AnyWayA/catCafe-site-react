@@ -1,0 +1,55 @@
+.header {
+    background-color: #f3bd4a;
+    position: relative;
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+
+.main {
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 180px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu > li {
+    margin: 0 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.menu > li:last-child {
+    margin-right: 0;
+    padding-left: 20px;
+    text-transform: capitalize;
+    border-left: 1px solid;
+    border-color: inherit;
+    color: var(--light-text);
+    cursor: context-menu;
+}
+
+.icon {
+    transform: rotate(45deg);
+    color: var(--primary-text);
+}
+
+.sign {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+}
+.sign p {
+    padding-right: 10px;
+}

@@ -1,0 +1,117 @@
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 35px;
+}
+
+.card {
+    margin-bottom: 35px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text {
+    padding: 10px 15px 15px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.descr {
+    margin-top: 10px;
+    justify-content: center;
+    font-size: 13px;
+    text-align: center;
+    color: var(--secondary-text);
+}
+
+.btnSpace {
+    width: 100%;
+    border-radius: 0 0 10px;
+}
+
+.btnSpace div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 13px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnInactive {
+    cursor: pointer;
+}
+
+.btnText {
+    padding: 0 10px;
+}
+
+.btnIcon {
+    cursor: pointer;
+}
+
+
+.basketLink {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 7%;
+    right: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px;
+    z-index: 100;
+    text-align: center;
+    background-color: var(--primary-text);
+    color: var(--primary-color);
+    border-radius: 50%;
+    color: white;
+    font-size: 13px;
+}
+
+.basketIcon {
+    margin-bottom: 10px;
+    width: 45px;
+    height: 100%;
+    color: var(--primary-color);
+    position: relative;
+    z-index: 102;
+}
+
+
+.basketClean {
+    position: absolute;
+    padding: 10px;
+    bottom: -6px;
+    right: -9px;
+    width: 14px;
+    height: 14px;
+    z-index: 101;
+    transform: translateX(-50%);
+    background-color: var(--primary-text);
+    color: var(--primary-color);
+    border-radius: 50%;
+    border: 1.5px solid white;
+}
+
+.basketClean:hover{
+    color: red;
+}
